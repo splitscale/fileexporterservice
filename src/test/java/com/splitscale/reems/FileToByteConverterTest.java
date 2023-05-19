@@ -19,9 +19,9 @@ class FileToByteConverterTest {
         row1.add("Email");
         data.add(row1);
         List<Object> row2 = new ArrayList<>();
-        row2.add("John Doe");
+        row2.add("Jerome");
         row2.add(30);
-        row2.add("john.doe@example.com");
+        row2.add("jerome.delacruz@example.com");
         data.add(row2);
 
         ExcelExporter excelExporter = new ExcelExporter();
