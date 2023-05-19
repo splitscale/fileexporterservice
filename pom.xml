@@ -7,7 +7,7 @@
 
   <groupId>com.splitscale.reems</groupId>
   <artifactId>fileexporterservice</artifactId>
-  <version>1.0</version>
+  <version>1.0.0+1</version>
 
   <distributionManagement>
     <repository>
