@@ -1,14 +1,16 @@
 package com.splitscale.reems;
 
-import java.io.IOException;
 import java.util.List;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelExporter {
 
-  public static Workbook exportToExcel(List<List<Object>> data)
-    throws IOException {
+    ExcelExporter() {
+        // default
+    }
+
+  public Workbook exportToExcel(List<List<Object>> data) {
     Workbook workbook = new XSSFWorkbook();
     Sheet sheet = workbook.createSheet("Sheet1");
 
